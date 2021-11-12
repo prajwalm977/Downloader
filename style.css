@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Yuji+Boku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu:ital@1&family=Yuji+Boku&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Yuji Boku", serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  border: 2px solid red;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerLeft {
+  margin-left: 50px;
+}
+
+.headerLeft h1 {
+  margin-top: 20px;
+}
+
+.headerRight {
+  flex: 1;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 100px;
+  margin: 30px;
+  justify-content: flex-end;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
+li a:hover {
+  text-decoration: dashed;
+  border-bottom: 2px solid green;
+}
+
+.middle {
+  margin-top: 60px;
+  height: 65vh;
+}
+.middleinner {
+  margin-top: 60px;
+  text-align: center;
+}
+.main {
+  width: 60%;
+  margin: auto;
+}
+form input {
+  width: 80%;
+  text-align: center;
+  height: 40px;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  border: 6px solid none;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.btn {
+  margin-top: 15px;
+  height: 40px;
+  width: 30%;
+  border: 6px solid none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.help{
+    display: inline-block;
+    margin: 50px;
+    color: red;
+    font-size: 1.5rem;
+    border-bottom: 1px solid red;
+}
